@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pikachu</title>
+    <style>
+      body 
+      {
+        background-color: #fffff0;
+        font-family: Arial, sans-serif;
+        padding: 25px;
+      }
+
+      header 
+      {
+        background-color: #ffde00;
+        color: #000;
+        text-align: center;
+        padding: 50px 0;
+        font-size: 50px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+        border-radius: 8px;
+        margin-top: 0;
+      }
+
+      .container 
+      {
+        display: flex;
+        align-items:flex-end;
+        gap: 20px;
+      }
+
+      .image 
+      {
+        width: 1000px;
+        height: 800px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+        object-fit: cover;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+
+      .left-side 
+      {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 800px;
+        margin-bottom: 25px;
+      }
+
+      .small-image 
+      {
+        width: 270px;
+        height: 500px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+        margin-bottom: 20px;
+      }
+      .Index
+      {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+        width: 230px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+      }
+
+      table 
+      {
+        width: 50%;
+        margin: 20px 0;
+        margin: 0 auto; 
+        border-collapse: collapse;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #ffde00;
+      }
+
+      th
+      {
+        padding: 10px;
+        text-align: left;
+        margin: 10;
+        border : 1px solid #ccc;
+
+      }
+
+      td 
+      {
+        font-weight: bold;
+        padding: 10px;
+        color: red;
+        border : 1px solid #ccc;
+      }
+
+      .section 
+      {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 1, 1);
+      }
+
+      .varinats
+      {
+       margin: 0 20px ;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      ol li a {
+        text-decoration: none;
+        color: #e49b00;
+      }
+
+      ol li a:hover 
+      {
+        text-decoration: underline;
+      }
+
+      ol li 
+      {
+        margin: 10px ;
+      }
+
+      .footer 
+      {
+        background-color: #ffde00;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        border-top: 2px solid #e49b00;
+        margin-top: 40px;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0;
+      }
+
+      .footer a
+      {
+        color: #d62828;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      .footer a:hover
+      {
+        text-decoration: underline;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header><strong><i><u>Pikachu - The Electric Pokemon</u></i<</strong></header>
+    <div class="container">
+      <div class="left-side">
+        <img src="SmallPika.png" alt="Small Pikachu" class="small-image">
+        <div class="Index">
+          <h2>Index</h2>
+          <ol>
+            <li><a href="#main-info">Main Information</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#Habitat">Habitat</a></li>
+            <li><a href="#Behavior">Behavior</a></li>
+            <li><a href="#Ability">Abilities and Moves</a></li>
+            <li><a href="#Evolution">Evolution</a></li>
+            <li><a href="#Variants">Forms and Variants</a></li>
+            <li><a href="#basestats">basestats</a></li>
+            <li><a href="#typeeffective">Type Effectiveness</a></li>
+
+          </ol>
+        </div>
+      </div>
+      <img src="PikachuImage.png" alt="Pikachu" class="image">
+    </div>
+
+
+    <div class="section" id="main-info">
+      <h2>1. Main Information</h2>
+      <table>
+        <tr>
+          <th>Pokédex No.</th>
+          <td>#025</td>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <td>Pikachu</td>
+        </tr>
+        <tr>
+          <th>Type</th>
+          <td>Electric ⚡</td>
+        </tr>
+        <tr>
+          <th>Species</th>
+          <td>Mouse Pokémon</td>
+        </tr>
+        <tr>
+          <th>Height</th>
+          <td>0.4 m (1'04")</td>
+        </tr>
+        <tr>
+          <th>Weight</th>
+          <td>6.0 kg (13.2 lbs)</td>
+        </tr>
+        <tr>
+          <th>Abilities</th>
+          <td>Static / Lightning Rod (Hidden)</td>
+        </tr>
+        <tr>
+          <th>Evolution</th>
+          <td>Pichu → Pikachu → Raichu (via Thunder Stone)</td>
+        </tr>
+        <tr>
+          <th>Base Stats</th>
+          <td>
+            HP: 35, Atk: 55, Def: 40, Sp.Atk: 50, Sp.Def: 50, Speed: 90
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section" id="description">
+      <h2>2. Description</h2>
+      <p>
+        Pikachu is a small, quadrupedal rodent-like Pokémon with yellow fur and long, pointed ears with black tips. It has brown stripes on its back and a tail shaped like a lightning bolt. Female Pikachu have a tail that is shaped like the top of a heart, a distinction introduced in Generation IV.<br>
+        Pikachu's most notable feature is its ability to store electricity in its cheeks, which it releases in the form of electric discharges. These cheek pouches are used to store electricity generated by the electric sacs located in its cheeks. When threatened, Pikachu can release electric charges of varying intensity.
+      </p>
+      <iframe width="80%" height="600" src="https://www.youtube.com/embed/-LUc8Y43FZU" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="section" id="Habitat">
+      <h2>3. Habitat</h2>
+      <p>
+        Pikachu are commonly found in forests and grassy plains, often in areas with abundant electrical energy.<br>
+        They are social creatures, typically living in groups. In the wild, they use their electricity to roast hard berries, making them easier to eat.
+      </p>
+    </div>
+
+    <div class="section" id="Behavior">
+      <h2>4. Behavior</h2>
+      <p>
+        Pikachu are known for their friendly and playful nature, especially when interacting with humans and other Pokémon. They are intelligent and can be trained to perform various tasks. However, they can become aggressive when provoked or when their territory is threatened.<br>
+        In the anime, Pikachu is famously known as Ash Ketchum's first Pokémon and has been his loyal companion throughout his journey. This particular Pikachu has displayed exceptional strength and unique behaviors, such as refusing to evolve into Raichu.
+        <iframe width="80%" height="600" src="https://www.youtube.com/embed/ug4lYbPELF4" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+      </p>
+    </div>
+
+    <div class ="section" id="Ability">
+      <h2>5. Abilities and Moves</h2>
+      <p>
+        Pikachu's primary ability, Static, may cause paralysis if an opponent makes physical contact. Its hidden ability, Lightning Rod, draws in all Electric-type moves to increase its Special Attack stat.
+
+        Notable Moves:
+        <ul>
+          <li>Thunderbolt</li>
+          <li>Quick Attack</li>
+          <li>Electro Ball</li>
+          <li>Volt Tackle (exclusive to event Pikachu)</li>
+          <li>Iron Tail</li>
+          <li>Thunder Wave</li>
+          <li>Thunder</li>
+        </ul>
+      </p>
+      <iframe width="80%" height="600" src="https://www.youtube.com/embed/rm-UACkk3Rg" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="section" id="Evolution">
+      <h2>6. Evolution</h2>
+      <p>
+        Pikachu is the middle stage of a three-part evolutionary line. It evolves from Pichu, a baby Pokémon, when it develops a strong bond of friendship with its Trainer. This evolution occurs once Pichu has reached a high enough level of happiness and gains experience through leveling up. In this form, Pikachu exhibits greater control over its electric abilities and becomes more active in social and battle behaviors.<br>
+        Pikachu can then evolve into Raichu through exposure to a Thunder Stone. This is a classic stone-based evolution and does not require level-up or other conditions. Once evolved, Raichu gains a significant boost in strength, speed, and electric output. In most regions, this results in the standard Electric-type Raichu.<br>
+        However, if a Pikachu is exposed to a Thunder Stone within the Alola region, it will evolve into a regional variant known as Alolan Raichu. Unlike its standard counterpart, Alolan Raichu is an Electric/Psychic dual-type Pokémon. This form is unique in both appearance and behavior — it is known to float on its own tail using psychic energy, resembling a surfboard, and displays a more playful personality.<br>
+      </p>
+      <img src="Evolution.png" alt="Evolution Chart" width="600" height="400">
+      <iframe width="80%" height="600" src="https://www.youtube.com/embed/PXX0fe3M3pU" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="section" id="Variants">
+      <h2>6. Forms and Variants</h2>
+      <p>
+        Pikachu has several regional forms and variants, including:
+        <ul>
+          <li><strong>Gigantamax Pikachu:</strong> A special form that appears in Pokémon Sword and Shield, featuring a unique G-Max Move.</li>
+          <img src="Gigantamax.png" alt="Gigantamax Pikachu" width="500" height="300">
+          <li style="margin-top: 50px;"><strong>Cosplay Pikachu:</strong> A special variant with different costumes, each with unique moves.</li>
+          <img src="Cosplay.png" alt="Cosplay Pikachu" width="1000" height="300">
+          <img src="Cap.png" alt="Cap Pikachu" width="600" height="300">
+          <li style="margin-top: 50px;"><strong>Shiny Pikachu:</strong> A rare color variant with a different shade of yellow.</li>
+          <img src="Shiny.png" alt="Shiny Pikachu" width="500" height="300">
+          <li style=" margin-top: 50px;"><strong>Alolan Raichu:</strong> An Electric/Psychic-type variant found in the Alola region.</li>
+          <img src="Alolan.png" alt="Alolan Raichu" width="500" height="300">
+        </ul>
+      </p>
+      <iframe width="80%" height="600" src="https://www.youtube.com/embed/UNhzwiUblCM" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="section" id="basestats">
+      <h2>7. Base Stats</h2>
+        <p>
+          Pikachu has a total base stat of <strong>320</strong>, distributed mostly toward Speed and Attack. While it isn't particularly bulky, it can move fast and hit moderately hard.
+        </p>
+        <ul>
+          <li><strong>HP:</strong> 35 - Pikachu has low base health, making it fragile in battle.</li>
+          <li><strong>Attack:</strong> 55 - Its physical attack is decent and supports moves like Quick Attack and Iron Tail.</li>
+          <li><strong>Defense:</strong> 40 - Low defense makes it vulnerable to physical attacks.</li>
+          <li><strong>Special Attack:</strong> 50 - Pikachu's special moves like Thunderbolt benefit from this stat.</li>
+          <li><strong>Special Defense:</strong> 50 - Slightly better at resisting special moves but still fragile.</li>
+          <li><strong>Speed:</strong> 90 - Pikachu's best stat, allowing it to outspeed many opponents.</li>
+        </ul>
+        <p>
+          Overall, Pikachu is designed as a <strong>fast glass cannon</strong> — it strikes quickly but can't take many hits.
+        </p>
+        <img src="Stats.png" alt="Base Stats Chart" width="800" height="400">
+    </div>
+
+    <div class="section" id="typeeffective">
+      <h2>8. Type Effectiveness</h2>
+      <p>
+        As an <strong>Electric-type Pokémon</strong>, Pikachu has strengths and weaknesses based on type matchups.
+      </p>
+    
+      <h4>✅ Pikachu is strong against:</h4>
+      <ul>
+        <li><strong>Flying-type</strong> - Electric moves deal double damage.</li>
+        <li><strong>Water-type</strong> - Electric attacks are super effective.</li>
+      </ul>
+    
+      <h4>⚠️ Pikachu is weak against:</h4>
+      <ul>
+        <li><strong>Ground-type</strong> - Pikachu is completely vulnerable to Ground moves and Electric attacks do <em>not affect</em> Ground-types at all.</li>
+      </ul>
+    
+      <h4>🛡️ Pikachu resists:</h4>
+      <ul>
+        <li><strong>Electric-type</strong> - Takes reduced damage from other Electric Pokémon.</li>
+        <li><strong>Flying-type</strong> - Receives half damage from Flying moves (in some games due to abilities or dual types).</li>
+      </ul>
+      
+      <img src="Type_effectiveness.png" alt="Type Effectiveness Chart" width="1000" height="400">
+    </div>
+
+    <footer class="footer">
+      <p>© 2025 Pikachu Encyclopedia | Designed by Sarthak Kanade</p>
+      <p>
+        <a href="https://github.com/SarthakKanade" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/__sarthak._.k/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/sarthak-kanade-330240320/" target="_blank">LinkedIn</a>
+      </p>
+    </footer>    
